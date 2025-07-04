@@ -437,7 +437,7 @@ const TasveeriYaadeinPortfolio = () => {
             <img 
               src={item.image} 
               alt={item.caption}
-              className="w-full h-auto object-cover transform transition-transform duration-300 group-hover:scale-105"
+              className="w-full h-auto object-cover transform transition-transform duration-300 group-hover:scale-105 rounded-lg"
             />
 
             {/* ✅ Overlay shown on hover (desktop) or click (mobile) */}
